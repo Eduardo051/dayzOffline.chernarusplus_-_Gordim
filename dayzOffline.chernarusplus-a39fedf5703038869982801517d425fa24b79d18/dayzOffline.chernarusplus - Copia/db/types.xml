@@ -18425,7 +18425,8 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_Universal_Suppressor_BLACK">
     <nominal>0</nominal>
@@ -18540,7 +18541,8 @@
     <category name="weapons" />
     <usage name="Military" />
     <usage name="School" />
-    <value name="Tier4" />
+    <value name="Tier3" />
+    <value name="Tier1" />
     <value name="Tier2" />
   </type>
   <type name="TTC_M4DMROD">
@@ -18554,7 +18556,9 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier4" />
+    <value name="Tier3" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_M4DMRDesert">
     <nominal>4</nominal>
@@ -18567,7 +18571,9 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier4" />
+    <value name="Tier3" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_DMR_Hndguard">
     <nominal>5</nominal>
@@ -18581,7 +18587,9 @@
     <category name="weapons" />
     <tag name="shelves" />
     <usage name="Military" />
-    <value name="Tier4" />
+    <value name="Tier3" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_DMR_HndguardOD">
     <nominal>5</nominal>
@@ -18595,7 +18603,8 @@
     <category name="weapons" />
     <tag name="shelves" />
     <usage name="Military" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_DMR_HndguardDesert">
     <nominal>5</nominal>
@@ -18609,7 +18618,8 @@
     <category name="weapons" />
     <tag name="shelves" />
     <usage name="Military" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_308Stanag">
     <nominal>25</nominal>
@@ -20209,7 +20219,6 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
     <value name="Tier2" />
   </type>
   <type name="TTC_G3_Magazine_20rnd">
@@ -20224,7 +20233,6 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
     <value name="Tier1" />
     <value name="Tier2" />
   </type>
@@ -20240,7 +20248,6 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
   </type>
   <type name="TTC_BugBuster">
     <nominal>5</nominal>
@@ -20351,10 +20358,8 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="weapons" />
     <usage name="Military" />
-    <usage name="Police" />
     <value name="Tier3" />
     <value name="Tier4" />
-    <value name="Tier5" />
   </type>
   <type name="TTC_M14Suppressor">
     <nominal>0</nominal>
@@ -20457,12 +20462,12 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0" />
   </type>
   <type name="TTC_M110">
-    <nominal>14</nominal>
-    <lifetime>10800</lifetime>
-    <restock>14400</restock>
-    <min>10</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <nominal>20</nominal>
+    <lifetime>14400</lifetime>
+    <restock>7200</restock>
+    <min>8</min>
+    <quantmin>80</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
@@ -20512,6 +20517,7 @@
     <value name="Tier4" />
     <value name="Tier1" />
     <value name="Tier2" />
+    <usage name="Military" />
     <usage name="Hunting" />
   </type>
   <type name="TTC_AKMod_RifleFrame">
@@ -20522,11 +20528,10 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
   </type>
   <type name="TTC_AKMod_Barrel_76239">
     <nominal>4</nominal>
@@ -20540,7 +20545,6 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
   </type>
   <type name="TTC_AKMod_Barrel_76254">
     <nominal>4</nominal>
@@ -20554,7 +20558,6 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
   </type>
   <type name="TTC_AKMod_bttstk">
     <nominal>2</nominal>
@@ -20765,7 +20768,6 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
   </type>
   <type name="TTC_AG3">
     <nominal>10</nominal>
@@ -20809,9 +20811,10 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="weapons" />
-    <value name="Tier3" />
-    <value name="Tier2" />
     <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_FAL_Magazine">
     <nominal>20</nominal>
@@ -21565,7 +21568,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="weapons" />
     <value name="Tier3" />
-    <value name="Tier4" />
   </type>
   <type name="TTC_Aimpoint2000">
     <nominal>10</nominal>
@@ -21587,10 +21589,12 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier4" />
+    <value name="Tier3" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_DMR_HndguardSnow">
     <nominal>5</nominal>
@@ -21604,7 +21608,8 @@
     <category name="weapons" />
     <tag name="shelves" />
     <usage name="Military" />
-    <value name="Tier4" />
+    <value name="Tier3" />
+    <value name="Tier1" />
   </type>
   <type name="TTC_STG44">
     <nominal>10</nominal>
@@ -21688,7 +21693,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <value name="Tier3" />
-    <value name="Tier4" />
     <value name="Tier1" />
     <value name="Tier2" />
     <usage name="Military" />
@@ -21704,6 +21708,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <value name="Tier3" />
+    <value name="Tier1" />
     <value name="Tier2" />
     <usage name="Military" />
   </type>
@@ -21822,9 +21827,10 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <usage name="Military" />
   </type>
   <type name="TTC_TAVOR_DMR">
     <nominal>15</nominal>
@@ -21836,9 +21842,10 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <value name="Tier3" />
-    <value name="Tier4" />
     <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_TAVOR_Magazine_30rnd">
     <nominal>20</nominal>
@@ -21865,12 +21872,10 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
     <value name="Tier1" />
     <value name="Tier2" />
-    <value name="Tier5" />
+    <usage name="Military" />
   </type>
   <type name="TTC_VortexSE_Optic">
     <nominal>5</nominal>
@@ -21938,11 +21943,12 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <value name="Tier3" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
     <usage name="Military" />
   </type>
   <type name="TTC_MCX_Spear">
-    <nominal>18</nominal>
+    <nominal>10</nominal>
     <lifetime>10800</lifetime>
     <restock>1800</restock>
     <min>10</min>
@@ -21951,12 +21957,12 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
     <value name="Tier4" />
     <value name="Tier5" />
+    <usage name="Military" />
   </type>
   <type name="TTC_MCX_Spear_Black">
-    <nominal>18</nominal>
+    <nominal>10</nominal>
     <lifetime>10800</lifetime>
     <restock>1800</restock>
     <min>10</min>
@@ -21965,9 +21971,9 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
     <value name="Tier4" />
     <value name="Tier5" />
+    <usage name="Military" />
   </type>
   <type name="TTC_MCX_Spear_Magazine_20rnd">
     <nominal>30</nominal>
@@ -22293,7 +22299,8 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_EotechVudu_Tan_Optic">
     <nominal>1</nominal>
@@ -22307,7 +22314,8 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_EotechVudu_White_Optic">
     <nominal>1</nominal>
@@ -22321,7 +22329,8 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_EotechVudu_AK_Optic">
     <nominal>1</nominal>
@@ -22335,7 +22344,8 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_EotechVudu_Tan_AK_Optic">
     <nominal>1</nominal>
@@ -22349,7 +22359,8 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_EotechVudu_White_AK_Optic">
     <nominal>1</nominal>
@@ -22363,7 +22374,8 @@
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
-    <value name="Tier4" />
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="TTC_HAMR_AK">
     <nominal>1</nominal>
